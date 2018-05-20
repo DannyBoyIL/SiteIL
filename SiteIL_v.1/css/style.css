@@ -1,0 +1,81 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    font-size: 16px;
+    background-color: #fcf5e8;
+}
+
+.bg {    
+    background-image: url("../images/herbs/bg.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page-wrapper {
+    margin: 0 auto;
+    height: 100%;
+    width: 980px;
+}
+
+.header ul {
+    list-style: none;
+    padding: 0;   
+}
+
+.header ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.header ul li a {
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.7);
+}
+
+.header ul li a:hover {
+    color: #80bfff;
+}
+
+.footer p {
+    border-top: 1px solid lightgray;
+    padding-top: 15px;
+    text-align: center;
+    color: lightgray;
+}
+
+span.error {
+    color: red;
+}
+
+#sm-box {
+    padding: 1px;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.content {
+    text-align: justify;
+}
+
+div.post-bx {
+    border: 1px solid lightgray;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+div.post-bx h3 {
+    margin: 0px;
+}
+
+span.post-edit {
+    float: right;
+    margin-right: 15px;
+}
